@@ -23,10 +23,10 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section className="py-32 px-6 md:px-20 border-t border-light/10 bg-dark">
+        <section className="py-20 md:py-32 px-6 md:px-20 border-t border-light/10 bg-dark">
             <div className="max-w-7xl mx-auto w-full">
-                <div className="flex justify-between items-end mb-24">
-                    <h2 className="text-5xl md:text-7xl font-bold tracking-tight">SELECTED <br /> WORKS</h2>
+                <div className="flex justify-between items-end mb-16 md:mb-24">
+                    <h2 className="text-4xl md:text-7xl font-bold tracking-tight">SELECTED <br /> WORKS</h2>
                     <span className="text-lg font-mono text-gray-500">(03)</span>
                 </div>
 

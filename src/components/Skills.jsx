@@ -12,7 +12,7 @@ const skills = [
 
 export default function Skills() {
     return (
-        <section className="relative py-32 px-6 md:px-20 border-t border-light/10 bg-dark overflow-hidden">
+        <section className="relative py-20 md:py-32 px-6 md:px-20 border-t border-light/10 bg-dark overflow-hidden">
             {/* Background Image */}
             <div className="absolute inset-0 z-0 opacity-15 pointer-events-none">
                 <img
@@ -23,8 +23,8 @@ export default function Skills() {
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto w-full">
-                <div className="flex flex-col md:flex-row md:items-start justify-between mb-24">
-                    <h2 className="text-6xl md:text-8xl font-bold opacity-10 leading-none">SKILLS &<br />EXPERTISE</h2>
+                <div className="flex flex-col md:flex-row md:items-start justify-between mb-16 md:mb-24">
+                    <h2 className="text-4xl md:text-8xl font-bold opacity-10 leading-none">SKILLS &<br />EXPERTISE</h2>
                     <p className="max-w-md text-gray-400 mt-8 md:mt-0 leading-relaxed">
                         I leverage a modern tech stack to build scalable, high-performance applications. My focus is on clean code, seamless user experiences, and scalable solutions.
                     </p>

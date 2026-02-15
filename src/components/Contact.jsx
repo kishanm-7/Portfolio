@@ -3,20 +3,20 @@ import { Linkedin, Mail, Github, FileText } from 'lucide-react'
 
 export default function Contact() {
     return (
-        <section className="py-32 px-6 md:px-20 bg-dark min-h-[60vh] flex flex-col justify-between border-t border-light/10">
+        <section className="py-20 md:py-32 px-6 md:px-20 bg-dark min-h-[60vh] flex flex-col justify-between border-t border-light/10">
             <div className="max-w-7xl mx-auto w-full">
                 <motion.h2
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-6xl md:text-9xl font-bold mb-20 tracking-tighter font-heading"
+                    className="text-5xl md:text-9xl font-bold mb-16 md:mb-20 tracking-tighter font-heading"
                 >
                     LET'S WORK <br /> TOGETHER
                 </motion.h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                     <div>
-                        <a href="mailto:kishan.m2255@gmail.com" className="inline-block text-3xl md:text-5xl font-bold border-b-2 border-light/30 pb-2 hover:text-gray-300 transition-colors hover:border-light">
+                        <a href="mailto:kishan.m2255@gmail.com" className="inline-block text-2xl md:text-5xl font-bold border-b-2 border-light/30 pb-2 hover:text-gray-300 transition-colors hover:border-light break-all md:break-normal">
                             kishan.m2255@gmail.com
                         </a>
                         <p className="mt-8 text-gray-400 max-w-sm text-lg">
